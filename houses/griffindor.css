@@ -6,29 +6,21 @@
 li, ul, ol{
     list-style: none;
 }
-:root{
-    --text-font: 'Mountains of Christmas', cursive;
-    --text-color: #0f0d0d;
-}
-a{
-    border: none;
-    font-style: none;
-}
 body{
-    height: 100vh;
-    width: 100vw;
     background-image: url(../img/background-nm.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 header{
-    background-color: #0006;
+    background-color: #6e4123;
     height: 120px;
+    width: 100%;
     padding: 16px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 900px;
+    position: fixed;
 }
 .icon img{
     width: 70px;
@@ -50,26 +42,38 @@ label img{
     width: 56px;
     height: 24px;
 }
-.photos{
-    display: flex;
-    padding-left: 40%;
-    padding-top: 8%;
+:root{
+    --text-font: 'Mountains of Christmas', cursive;
+    --text-color: #0f0d0d;
+}
+main{
+    padding-left: 200px;
+    padding-top: 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
 }
-.casas img{
-    width: 200px;
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color: #ac372f;
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+    padding-left: 60px;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    position:static;
+    overflow: hidden;
 }
-.s img{
-    width: 220px;
+.character{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
 }
-.s{
-    padding-bottom: 32px;
-}
-.g{
-    padding-right: 32px;
-    padding-bottom: 32px;
-}
-.r{
-    padding-right: 32px;
+.name{
+    font-family: var(--text-font);
+    font-size: 32px;
+    font-weight: 600;
 }

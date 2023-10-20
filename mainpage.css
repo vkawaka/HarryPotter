@@ -8,12 +8,12 @@ li, ul, ol{
 }
 :root{
     --text-font: 'Mountains of Christmas', cursive;
-    --text-color: #f0eded;
+    --text-color: #e7dede;
 }
 body{
     height: 100vh;
     width: 100vw;
-    background-image: url(./img/background-main.svg);
+    background-image: url(./img/background-nm.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
