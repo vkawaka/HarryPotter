@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li, ul, ol{
+    list-style: none;
+}
+body{
+    width: 100vw;
+    background-image: url(../img/background-nm.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: #6e4123;
+    height: 120px;
+    width: 97%;
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 600px;
+    position: fixed;
+}
+.icon img{
+    width: 70px;
+    height: 90px;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search{
+    width: 800px;
+    height: 30px;
+    border: none;
+    background-color: #AB721D;
+    border-radius: 50px;
+}
+label img{
+    width: 56px;
+    height: 24px;
+}
+:root{
+    --text-font: 'Mountains of Christmas', cursive;
+    --text-color: #0f0d0d;
+}
+main{
+    padding-left: 200px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 50px;
+}
+.box-g{
+    display: flex;
+    flex-direction: row;
+    background-color: #ac372f;
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+    padding-left: 60px;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    position:static;
+    overflow: hidden;
+}
+.box-s{
+    display: flex;
+    flex-direction: row;
+    background-color: #073d07;
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+    padding-left: 60px;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    position:static;
+    overflow: hidden;
+}
+.box-r{
+    display: flex;
+    flex-direction: row;
+    background-color: #2f42ac;
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+    padding-left: 60px;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    position:static;
+    overflow: hidden;
+}
+.box-h{
+    display: flex;
+    flex-direction: row;
+    background-color: #f1c840;
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+    padding-left: 60px;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    position:static;
+    overflow: hidden;
+}
+.character{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+}
+.name{
+    font-family: var(--text-font);
+    font-size: 32px;
+    font-weight: 600;
+}

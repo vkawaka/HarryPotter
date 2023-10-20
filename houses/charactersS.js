@@ -11,10 +11,10 @@ const getInfos = async () => {
    const container = document.getElementById('container')
 
    arrayS.forEach(function(item) { 
-       if(item.attributes.house == 'Gryffindor'){
+       if(item.attributes.house == 'Slytherin'){
 
         const div = document.createElement('div')
-           div.classList.add('box-g')
+           div.classList.add('box-s')
         
            div.innerHTML = `
                <p id="name" class="name">${item.attributes.name}</p>
