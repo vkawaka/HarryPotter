@@ -11,10 +11,10 @@ const getInfos = async () => {
    const container = document.getElementById('container')
 
    arrayS.forEach(function(item) { 
-       if(item.attributes.house == 'Gryffindor'){
+       if(item.attributes.house == 'Hufflepuff'){
 
         const div = document.createElement('div')
-           div.classList.add('box-g')
+           div.classList.add('box-h')
         
            div.innerHTML = `
            <img src="${item.attributes.image}" alt="" class="photo">

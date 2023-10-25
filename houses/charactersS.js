@@ -8,6 +8,7 @@ const getInfos = async () => {
 
    const arrayS = nameImage.data
 
+   console.log(arrayS)
    const container = document.getElementById('container')
 
    arrayS.forEach(function(item) { 
@@ -17,6 +18,7 @@ const getInfos = async () => {
            div.classList.add('box-s')
         
            div.innerHTML = `
+               <img src="${item.attributes.image}" alt="" class="photo">
                <p id="name" class="name">${item.attributes.name}</p>
            `
            container.appendChild(div)

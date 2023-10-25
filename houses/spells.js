@@ -7,22 +7,20 @@ const getInfos = async () => {
    const nameImage = await getSpells()
 
    console.log(nameImage)
-//    const arrayS = nameImage.data
+    const arrayS = nameImage.data
 
-//    const container = document.getElementById('container')
+    const container = document.getElementById('container')
 
-//    arrayS.forEach(function(item) { 
-//        if(item.attributes.house == 'Gryffindor'){
-
-//         const div = document.createElement('div')
-//            div.classList.add('box-g')
+    arrayS.forEach(function(item) { 
+         const div = document.createElement('div')
+            div.classList.add('box')
         
-//            div.innerHTML = `
-//                <p id="name" class="name">${item.attributes.name}</p>
-//            `
-//            container.appendChild(div)
-//            console.log(div)
-//        }
-//    })
+           div.innerHTML = `
+                <p id="name" class="name">${item.attributes.name}</p>
+                <p id="name" class="cat">${item.attributes.category}</p>
+            `
+            container.appendChild(div)
+            console.log(div)
+    })
 }
 getInfos()
